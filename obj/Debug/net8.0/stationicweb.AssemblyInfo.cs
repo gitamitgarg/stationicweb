@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("stationicweb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cedc0fb680afed77851fbc8e34abb2a70623a3c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("stationicweb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("stationicweb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
