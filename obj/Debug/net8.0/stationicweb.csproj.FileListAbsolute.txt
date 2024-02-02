@@ -28,3 +28,4 @@ C:\17-Dec-2023\Azure\az-webapp\stationicweb\obj\Debug\net8.0\refint\stationicweb
 C:\17-Dec-2023\Azure\az-webapp\stationicweb\obj\Debug\net8.0\stationicweb.pdb
 C:\17-Dec-2023\Azure\az-webapp\stationicweb\obj\Debug\net8.0\stationicweb.genruntimeconfig.cache
 C:\17-Dec-2023\Azure\az-webapp\stationicweb\obj\Debug\net8.0\ref\stationicweb.dll
+C:\17-Dec-2023\Azure\az-webapp\stationicweb\obj\Debug\net8.0\stationicweb.sourcelink.json
