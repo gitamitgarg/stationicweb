@@ -40,22 +40,13 @@ jobs:
     environment:
       name: 'test'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-    permissions:
-      id-token: write #This is required for requesting the JWT
-
+    
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
         with:
           name: .net-app
       
-      - name: Login to Azure
-        uses: azure/login@v1
-        with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_9F3A5FF12A4F40A9A1C44AA6F1BE7052 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_C6ACA7024FA34C74896ED507866FDBDE }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_FDB2F53AC34147CE9910D10CDCB75594 }}
-
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
@@ -63,4 +54,4 @@ jobs:
           app-name: 'stationicweb'
           slot-name: 'test'
           package: .
-          
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5F4E8DB1314243EB86E3336BDA23DDEC }}
