@@ -1,0 +1,7 @@
+C:\17-Dec-2023\Azure\az-webapp\stationicweb\bin\Release\net8.0\publish\stationicweb.exe
+C:\17-Dec-2023\Azure\az-webapp\stationicweb\bin\Release\net8.0\publish\appsettings.Development.json
+C:\17-Dec-2023\Azure\az-webapp\stationicweb\bin\Release\net8.0\publish\appsettings.json
+C:\17-Dec-2023\Azure\az-webapp\stationicweb\bin\Release\net8.0\publish\stationicweb.dll
+C:\17-Dec-2023\Azure\az-webapp\stationicweb\bin\Release\net8.0\publish\stationicweb.deps.json
+C:\17-Dec-2023\Azure\az-webapp\stationicweb\bin\Release\net8.0\publish\stationicweb.runtimeconfig.json
+C:\17-Dec-2023\Azure\az-webapp\stationicweb\bin\Release\net8.0\publish\stationicweb.pdb

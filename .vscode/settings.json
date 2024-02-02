@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net8.0\\publish",
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/bd1119cf-268d-4f9e-91ae-b48604029212/resourceGroups/stationicweb02Feb24/providers/Microsoft.Web/sites/stationicweb"
+}
